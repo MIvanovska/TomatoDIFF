@@ -1,5 +1,6 @@
 # TomatoDIFF
 Official implementation of the paper "TomatoDIFF: On–plant Tomato Segmentation with Denoising Diffusion Models" [^1].
+TomatoDIFF is a diffusion-based model developed for semantic segmentation of on-plant tomatoes. 
 
 ![TomatoDIFF](TomatoDIFF.png)
 
