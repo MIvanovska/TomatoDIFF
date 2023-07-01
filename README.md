@@ -11,9 +11,39 @@ The model is implemented using PyTorch. The full list of used libraries can be f
 ```
 pip install -r requirements.txt
 ```
+## 2. Prepare you data
+Our dataset **Tomatopia** is available for download here.
 
+The datasets you are using for training or testing TomatoDIFF should be placed in the directory called data. Datasets should have the following directory structure:
+```
+Dataset_name
+├── train
+│   ├── images
+│   │   └── train_img_1.png
+│   │   └── train_img_2.png
+│   │   └── ...
+│   ├── masks
+│   ├── features_1
+│   ├── features_2
+│   ├── features_3
+├── test
+│   ├── images
+│   │   └── test_img_1.png
+│   │   └── test_img_2.png
+│   │   └── ...
+│   ├── masks
+│   │   └── ...
+│   ├── features_1
+│   │   └── ...
+│   ├── features_2
+│   │   └── ...
+│   ├── features_3
+│   │   └── ...
+```
+## 3. Training
+## 4. Testing
 ## 5. Citing TomatoDIFF
-If you find this code useful or you want to refer to the paper, please cite using the following BibTeX:
+If you find this code useful, use our dataset Tomatopia or you want to refer to the paper, please cite using the following BibTeX:
 ```
 @INPROCEEDINGS{ivanovska2023TomatoDIFF,
   author={Ivanovska, Marija and Perš, Janez and Štruc, Vitomir},
