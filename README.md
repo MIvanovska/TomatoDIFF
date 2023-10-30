@@ -4,7 +4,7 @@ TomatoDIFF is a diffusion-based model developed for semantic segmentation of on-
 
 ![TomatoDIFF](TomatoDIFF.png)
 
-For more information please refer to the paper available [here]().
+For more information please refer to the paper available [here](https://unilj-my.sharepoint.com/:u:/g/personal/mivanovska_fe1_uni-lj_si/Efx0vR20H0NHmJqZfPOIb1ABEKULOeKKuFL68DwLPh4QeQ?e=nOLwEP).
 
 ## 1. Install the dependencies
 The model is implemented using PyTorch. The full list of used libraries can be found in requirements.txt.
@@ -12,7 +12,7 @@ The model is implemented using PyTorch. The full list of used libraries can be f
 pip install -r requirements.txt
 ```
 ## 2. Prepare you data
-Our dataset **Tomatopia** is available for download here.
+Our dataset **Tomatopia** is available for download [here](https://unilj-my.sharepoint.com/:u:/g/personal/mivanovska_fe1_uni-lj_si/Efx0vR20H0NHmJqZfPOIb1ABEKULOeKKuFL68DwLPh4QeQ?e=nOLwEP).
 
 The datasets you are using for training or testing TomatoDIFF should be placed in the directory called data. Datasets should have the following directory structure:
 ```
