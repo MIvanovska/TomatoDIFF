@@ -4,7 +4,7 @@ TomatoDIFF is a diffusion-based model developed for semantic segmentation of on-
 
 ![TomatoDIFF](TomatoDIFF.png)
 
-For more information please refer to the paper available [here](https://unilj-my.sharepoint.com/:u:/g/personal/mivanovska_fe1_uni-lj_si/Efx0vR20H0NHmJqZfPOIb1ABEKULOeKKuFL68DwLPh4QeQ?e=nOLwEP).
+For more information please refer to the paper available [here](https://ieeexplore.ieee.org/document/10215774).
 
 ## 1. Install the dependencies
 The model is implemented using PyTorch. The full list of used libraries can be found in requirements.txt.
